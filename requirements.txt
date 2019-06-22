@@ -1,0 +1,16 @@
+# requirements.txt --- Defines project dependencies.
+#
+# NOTE: The dependencies are actually defined in setup.py file (see the
+#       `install_requies` key). The dot in this file informs pip to look in
+#       setup.py, so a `pip install -r requirements.txt` works as expected.
+#
+#       See <http://stackoverflow.com/a/19081268>
+-e .
+
+# -----------------------------------
+# Development dependencies start here
+# -----------------------------------
+coverage==4.5.3
+pylint==2.3.1
+setuptools-lint==0.6.0
+Sphinx==2.1.2
